@@ -1,0 +1,8 @@
+{
+    "name" : "Univercore",
+    "version" : "1.0",
+    "download_url" : "https://github.com/basespeed/test/archive/refs/heads/master.zip",
+    "sections" : {
+        "description" : "Plugin description here. You can use HTML."
+    }
+}

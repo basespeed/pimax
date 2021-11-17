@@ -1,0 +1,68 @@
+#toplevel_page_pimax img {
+    width: 18px;
+}
+#pimax h1 {
+    display: flex;
+    align-items: center;
+}
+#pimax img {
+    width: 200px;
+    height: auto;
+}
+#pimax span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+#pimax input {
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+#pimax select {
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    max-width: 89.3px;
+    width: 100%;
+}
+#pimax .form-table td {
+    margin-bottom: 9px;
+    padding: 15px 0;
+}
+#pimax button {
+    margin-top: 10px;
+}
+#pimax .disable_piads {
+    width: initial;
+    height: inherit;
+}
+
+.menu_piads ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu_piads ul li{
+    margin-right: 10px;
+}
+
+.menu_piads ul li a{
+    background: #FFFFFF;
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu_piads ul li.active a{
+    background: #598FFF;
+    color: #FFFFFF;
+}
+
+#pimax h1{
+    margin-bottom: 20px;
+}
