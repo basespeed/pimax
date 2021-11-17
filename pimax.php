@@ -58,7 +58,7 @@ class PiMax{
 
     //update plugin
     public function update(){
-        require_once DIR . '/inc/update/plugin-update-checker.php';
+        require_once DIR . '/inc/update/update.php';
         $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
             'https://github.com/basespeed/pimax/',
             __FILE__,

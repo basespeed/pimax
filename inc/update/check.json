@@ -1,8 +1,8 @@
 {
-    "name" : "pimax",
-    "version" : "1.1",
-    "download_url" : "https://github.com/basespeed/pimax/archive/refs/heads/master.zip",
-    "sections" : {
-        "description" : "Plugin description here. You can use HTML."
-    }
+  "name" : "pimax",
+  "version" : "1.1",
+  "download_url" : "https://github.com/basespeed/pimax/archive/refs/heads/master.zip",
+  "sections" : {
+	"description" : "Plugin description here. You can use HTML."
+  }
 }
