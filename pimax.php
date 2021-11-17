@@ -27,6 +27,7 @@ class PiMax{
             self::$instance->setup();
             self::$instance->PiAds();
             self::$instance->DashBroad();
+            self::$instance->update();
         }
     }
 
