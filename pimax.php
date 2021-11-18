@@ -3,14 +3,14 @@
 Plugin Name: PiMax
 Plugin URI: https://pimax.me
 Description: WordPress Plugin Assistants
-Version: 1.2
+Version: 1.0
 Author: Pitagon
 Author URI: https://pitagon.io
 Text Domain: pimax
 */
 
 /**
- * Register and enqueue a custom stylesheet for Piads.
+ * Register and enqueue a custom stylesheet for PiMax.
  */
 function pimax_admin_style() {
     wp_register_style( 'admin_css', plugin_dir_url(__FILE__) . '/assets/css/admin.css', true, '1.0' );
@@ -52,7 +52,7 @@ class PiMax{
 
     //DashBroad
     public function DashBroad(){
-        //widget
+        //widget intro pitagon
         require_once DIR . '/inc/Dashbroad/widget_intro.php';
     }
 
