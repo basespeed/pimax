@@ -13,7 +13,7 @@ Text Domain: pimax
  * Register and enqueue a custom stylesheet for PiMax.
  */
 function pimax_admin_style() {
-    wp_register_style( 'admin_css', plugin_dir_url(__FILE__) . '/assets/css/admin.css', true, '1.0' );
+    wp_register_style( 'admin_css', plugin_dir_url(__FILE__) . '/assets/css/admin.css?ver='.uniqid(), true, '1.0' );
     wp_enqueue_style( 'admin_css' );
 }
 add_action( 'admin_enqueue_scripts', 'pimax_admin_style' );
