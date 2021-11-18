@@ -95,3 +95,7 @@
 .intro_pitagon .service li a:hover{
     text-decoration: underline;
 }
+
+.intro_pitagon img{
+    width: 300px;
+}

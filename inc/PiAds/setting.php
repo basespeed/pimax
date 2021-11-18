@@ -32,7 +32,7 @@ function Pimax_create_menu() {
 function template2(){
     ?>
     <div id="pimax">
-        <h1><img src="<?php echo plugin_dir_url(__FILE__) . '../../assets/images/logo.png'; ?>" alt="Piads" title="Piads" /></h1>
+        <h1><img src="<?php echo plugin_dir_url(__FILE__) . '../../assets/images/pitagon.png'; ?>" alt="Piads" title="Piads" /></h1>
 
         <div class="menu_piads">
             <ul>
@@ -55,7 +55,7 @@ function register_pimax_plugin_settings() {
 function template_piads() {
 ?>
 <div id="pimax">
-    <h1><img src="<?php echo plugin_dir_url(__FILE__) . '../../assets/images/logo.png'; ?>" alt="Piads" title="Piads" /></h1>
+    <h1><img src="<?php echo plugin_dir_url(__FILE__) . '../../assets/images/pitagon.png'; ?>" alt="Piads" title="Piads" /></h1>
 
     <div class="menu_piads">
         <ul>

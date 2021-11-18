@@ -3,7 +3,7 @@
 Plugin Name: PiMax
 Plugin URI: https://pimax.me
 Description: WordPress Plugin Assistants
-Version: 1.1
+Version: 1.2s
 Author: Pitagon
 Author URI: https://pitagon.io
 Text Domain: pimax
