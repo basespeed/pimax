@@ -6,7 +6,7 @@
     align-items: center;
 }
 #pimax img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 #pimax span {
@@ -48,6 +48,13 @@
 
 .menu_piads ul li{
     margin-right: 10px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.menu_piads ul li:hover a{
+    background: #598FFF;
+    color: #FFFFFF;
 }
 
 .menu_piads ul li a{
@@ -61,6 +68,70 @@
 .menu_piads ul li.active a{
     background: #598FFF;
     color: #FFFFFF;
+}
+
+.menu_piads ul li a:before{
+    content: "";
+    position: absolute;
+    transition: 0.3s;
+    left: 2px;
+    top: 2px;
+    width: 0;
+    height: 2px;
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+
+.menu_piads ul li:hover a:before{
+    width: calc(100% - 4px);
+}
+
+.menu_piads ul li a:after{
+    content: "";
+    position: absolute;
+    transition: 0.3s;
+    right: 2px;
+    top: 2px;
+    height: 0px;
+    width: 2px;
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+
+.menu_piads ul li:hover a:after{
+    height: calc(100% - 4px);
+}
+
+.menu_piads ul li:before{
+    content: "";
+    position: absolute;
+    transition: 0.3s;
+    left: 2px;
+    bottom: 2px;
+    width: 0px;
+    height: 2px;
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+
+.menu_piads ul li:hover:before{
+    width: calc(100% - 4px);
+}
+
+.menu_piads ul li:after{
+    content: "";
+    position: absolute;
+    transition: 0.3s;
+    left: 2px;
+    top: 2px;
+    height: 0px;
+    width: 2px;
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+
+.menu_piads ul li:hover:after{
+    height: calc(100% - 4px);
 }
 
 #pimax h1{
